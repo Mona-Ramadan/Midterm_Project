@@ -6,19 +6,21 @@
     <title>Social Media</title>
 
     <style>
-      .float-left {
-        float: left;
-        margin-right: 10px;
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
-      .float-right {
-        float: right;
-        margin-left: 10px;
+      .text {
+        flex: 1;
       }
-      .align-right {
+      .image {
+        flex: 1;
         text-align: right;
       }
-      .align-left {
-        text-align: left;
+      img {
+        max-width: 70%;
+        height: auto;
       }
     </style>
   </head>
@@ -34,9 +36,15 @@
       Arguments against Social Media
     </h1>
 
-    <section>
-      <div>
-        <h2 style="color: rgb(157, 4, 17); font-size: 25px">
+    <section class="container">
+      <dive class="text">
+        <h2
+          style="
+            color: rgb(157, 4, 17);
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          "
+        >
           Mental and Social Impact:
         </h2>
         <p
@@ -46,7 +54,6 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
           "
-          class="align-left"
         >
           Social media can greatly affect people’s mental health. It can
           increase anxiety and depression due to social comparisons and feelings
@@ -57,11 +64,20 @@
           communication, leading to a sense of loneliness and disconnection from
           the real world.
         </p>
-        <img src="images/1.jpg" alt="Mental photo" class="float-right" />
+      </dive>
+      <div class="image">
+        <img src="images/111.jpg" alt="Mental photo" class="float-right" />
       </div>
-
-      <div>
-        <h2 style="color: rgb(157, 4, 17); font-size: 25px">
+    </section>
+    <section class="container">
+      <div class="text">
+        <h2
+          style="
+            color: rgb(157, 4, 17);
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          "
+        >
           Addiction and Distraction:
         </h2>
         <p
@@ -71,7 +87,6 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
           "
-          class="align-right"
         >
           Social media is very addictive, and people often spend hours on it
           without a clear purpose. This addiction can lead to distraction and
@@ -81,11 +96,20 @@
           a decrease in the quality of work or study, as individuals struggle to
           balance their online and offline lives.
         </p>
-        <img src="images/2.png" alt="Addiction photo" />
       </div>
-
-      <div>
-        <h2 style="color: rgb(157, 4, 17); font-size: 25px">
+      <div class="image">
+        <img src="images/22.png" alt="Addiction photo" />
+      </div>
+    </section>
+    <section class="container">
+      <div class="text">
+        <h2
+          style="
+            color: rgb(157, 4, 17);
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          "
+        >
           Spread of Misinformation:
         </h2>
         <p
@@ -95,7 +119,6 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
           "
-          class="align-left"
         >
           Social media helps spread fake news and misleading information
           quickly. This can lead to people forming incorrect opinions and making
@@ -106,11 +129,20 @@
           narratives, leading to long-term misconceptions and distrust in
           reliable sources.
         </p>
+      </div>
+      <div class="image">
         <img src="images/3.png" alt="fake information photo" />
       </div>
-
-      <div>
-        <h2 style="color: rgb(157, 4, 17); font-size: 25px">
+    </section>
+    <section class="container">
+      <div class="text">
+        <h2
+          style="
+            color: rgb(157, 4, 17);
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          "
+        >
           Privacy and Security:
         </h2>
         <p
@@ -131,7 +163,9 @@
           misuse of personal information. This lack of privacy can lead to
           serious consequences, including identity theft and financial loss.
         </p>
-        <img src="images/4.jpg" alt="Privacy photo" />
+      </div>
+      <div class="image">
+        <img src="images/444.png" alt="Privacy photo" />
       </div>
     </section>
   </body>
